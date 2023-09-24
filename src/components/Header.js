@@ -23,7 +23,7 @@ function Header() {
     const { itemAmount } = useContext(CartContext);
 
     return (
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-gray-800 ">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -71,7 +71,7 @@ function Header() {
                                     <div>
                                         <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                             <span className="sr-only">Open user menu</span>
-                                            <Link to="/sidebar">
+                                            <Link to="/addtocart">
                                                 <FiShoppingCart className="text-xl text-white cursor-pointer relative w-[30px] h-[30px] m-2" />
                                                 <div className='bg-white text-black rounded-full absolute top-0 right-0 p-1 font-medium'>{itemAmount}</div>
                                             </Link>
@@ -81,7 +81,7 @@ function Header() {
                             </div>
                         </div>
                     </div>
-
+                    {/* Small Screen Hamburf=ger menu */}
                     <Disclosure.Panel className="sm:hidden">
                         <div className="space-y-1 px-2 pb-3 pt-2">
                             {navigation.map((item) => (

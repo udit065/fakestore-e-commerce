@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { FiTrash2 } from "react-icons/fi";
-import CartItem from '../components/CartItem';
+import CartItem from './CartItem';
 import { CartContext } from '../contexts/CartContext';
 
 
-const Sidebar = () => {
+const AddToCart = () => {
 
     const { cart, clearCart, itemAmount, total } = useContext(CartContext);
 
@@ -54,4 +54,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar;
+export default AddToCart;

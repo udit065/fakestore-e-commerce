@@ -3,6 +3,8 @@ import { ProductContext } from '../contexts/ProductContext';
 import { Link } from 'react-router-dom';
 import { BsEyeFill } from "react-icons/bs";
 import { CartContext } from '../contexts/CartContext';
+import Footer from '../components/Footer';
+import RandomProduct from '../components/RandomProduct';
 
 
 function Home() {
@@ -22,7 +24,6 @@ function Home() {
     const ShowProducts = () => {
         return (
             <>
-
                 {/* //Filter Buttons */}
                 {/* <div className="buttons">
                     <div className="flex flex-wrap justify-center gap-2">
@@ -86,6 +87,7 @@ function Home() {
 
     return (
         <>
+            <RandomProduct />
             <div>
                 <div className="container mx-auto my-5 px-5">
                     <div className="row">
@@ -99,6 +101,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
 
     )
