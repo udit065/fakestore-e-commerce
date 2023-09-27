@@ -37,6 +37,7 @@ function RandomProduct() {
                         <Link to={`/product/${products.id}`} className='self-start uppercase font-semibold border-b-2 border-primary'>Discover More</Link>
                         {console.log(products.id)}
                     </div>
+                    <img src="./img-files/online-shopping-animate.svg" alt="Online Shopping Animation" />
                 </div>
                 <div className="">
                     <img src={bannerProducts?.image} alt="Product" className="absolute right-[237px] top-[235px] h-[240px] w-auto shadow-"

@@ -5,8 +5,8 @@ import { BsEyeFill } from "react-icons/bs";
 import { CartContext } from '../contexts/CartContext';
 import Footer from '../components/Footer';
 import RandomProduct from '../components/RandomProduct';
-import ParticleBg from '../components/ParticleBg';
-import Test1 from '../components/Test1';
+import Banner from '../components/Banner';
+import Slider from '../components/Slider';
 
 
 function Home() {
@@ -89,11 +89,9 @@ function Home() {
 
     return (
         <>
-            <RandomProduct />
-            {/* <Test1 /> */}
-            <h2>sfdgbfj</h2>
-            {/* <ParticleBg /> */}
-
+            {/* <RandomProduct /> */}
+            <Banner />
+            <Slider />
             <div>
                 <div className="container mx-auto my-5 px-5">
                     <div className="row">
