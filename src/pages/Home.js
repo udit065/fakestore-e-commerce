@@ -43,7 +43,7 @@ function Home() {
                         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 mb-4" key={product.id}>
                             <div className="bg-white rounded shadow">
                                 <div className="w-full h-full flex justify-center items-center ease-in duration-200 transform hover:scale-110 transition-transform relative group">
-                                    <div className="w-[200px] mx-auto flex justify-center items-center ">
+                                    <div className="w-[200px] mx-auto flex justify-center items-center">
                                         <img src={product.image} className="max-h-[160px] " alt={product.title} />
                                     </div>
                                     {/* //PLUS Button */}
@@ -95,9 +95,10 @@ function Home() {
             <div>
                 <div className="container mx-auto my-5 px-5">
                     <div className="row">
-                        <div className="col-12 mb-5">
-                            <h1 className="text-3xl font-semibold mb-10 text-center mt-6">Explore Our Latest Products</h1>
-                            <hr />
+                        <div className="col-12 mb-5 text-center">
+                            <h1 className="font-bold mt-6 font-poppins text-[48px] text-black">Best Sellers</h1>
+                            <h6 className='font-oswald'>Shake Up Your Denim Selection With Zippered Detailing And Distressing.<br />
+                                Jeans Trousers, Shorts - All Here, Just For You.</h6>
                         </div>
                     </div>
                     <div className="row justify-content-center">
