@@ -7,6 +7,8 @@ import Footer from '../components/Footer';
 import RandomProduct from '../components/RandomProduct';
 import Banner from '../components/Banner';
 import Slider from '../components/Slider';
+import ExploreSection1 from '../components/ExploreSection1';
+import Newsletter from '../components/Newsletter';
 
 
 function Home() {
@@ -105,6 +107,10 @@ function Home() {
                         <ShowProducts />
                     </div>
                 </div>
+            </div>
+            <div>
+                <ExploreSection1 />
+                <Newsletter />
             </div>
             <Footer />
         </>

@@ -1,54 +1,75 @@
-import { useContext, useState } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import React, { useState } from 'react';
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import SearchIcon from '@mui/icons-material/Search';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+import IconButton from '@mui/material/IconButton';
 import { Link } from 'react-router-dom';
-import { ProductContext } from '../contexts/ProductContext';
-import { FiShoppingCart } from "react-icons/fi";
-import { CartContext } from '../contexts/CartContext';
-import { GiHamburgerMenu } from "react-icons/gi";
 
 
 const Navbar = () => {
-
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
+        setMenuOpen(!menuOpen);
     };
 
-    const { products } = useContext(ProductContext);
-    const { itemAmount } = useContext(CartContext);
-
     return (
-        <>
-            <nav className={`bg-black flex items-center justify-around top-0 w-full z-99 xl:h-12 md:h-10 sm:h-10`}>
-                <div className="flex items-center">
-                    <h1 className='text-white text-xl'>TrendPrime</h1>
-                </div>
-
-                <div className="flex gap-4 text-white">
-                    <ul className="flex gap-4">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Services</li>
-                    </ul>
-                </div>
-
-                {/* Add to Cart */}
-                <div className="items-center  mt-02">
-                    <Link to="/addtocart">
-                        <FiShoppingCart className="text-xl text-white cursor-pointer relative w-[30px] h-[30px] items-center" />
-                        <div className='bg-white text-black rounded-full absolute -top-2 right-[8.5rem] w-4 text-center font-medium mr-12 mt-2'>
-                            {itemAmount}
+        <nav className="flex justify-between items-center w-[92%] mx-auto border-b-2 h-16">
+            <div>
+                <h1 className='font-black text-2xl'>CareerGaze</h1>
+            </div>
+            {/* top-[9%] */}
+            <div
+                className={`nav-links duration-500 lg:static absolute bg-white lg:min-h-fit h-[60vh] ${menuOpen ? 'top-[9%]' : 'top-[-100%]'
+                    } lg:w-auto w-full flex items-center px-5 z-10`}
+            >
+                <ul className="flex lg:flex-row flex-col lg:items-center lg:gap-[4vw] gap-8 h-16">
+                    <Link href="/pages/community">
+                        <div className="flex items-center hover:border-b-4 hover:border-green-700 h-16">
+                            <li >
+                                Home
+                            </li>
                         </div>
                     </Link>
-                </div>
-            </nav>
-
-
-        </>
-    )
-}
+                    <Link href="/pages/jobs">
+                        <div className="flex items-center hover:border-b-4 hover:border-green-700 h-16">
+                            <li>
+                                Products
+                            </li>
+                        </div>
+                    </Link>
+                    <Link href="/pages/companies">
+                        <div className="flex items-center hover:border-b-4 hover:border-green-700 h-16">
+                            <li>
+                                Latest Products
+                            </li>
+                        </div>
+                    </Link>
+                    <Link href="/pages/salaries">
+                        <div className="flex items-center hover:border-b-4 hover:border-green-700 h-16">
+                            <li>
+                                Offers
+                            </li>
+                        </div>
+                    </Link>
+                </ul>
+            </div>
+            <div className="flex items-center gap-6">
+                <SearchIcon />
+                <span className='xs:hidden'>Search</span>
+                <NotificationsNoneIcon />
+                <AccountCircleIcon />
+                <IconButton
+                    onClick={toggleMenu}
+                    className="lg:hidden"
+                >
+                    {menuOpen ? <CloseIcon className='z-50' /> : <MenuIcon />}
+                </IconButton>
+            </div>
+        </nav>
+    );
+};
 
 export default Navbar;

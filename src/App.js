@@ -8,7 +8,7 @@ import ProductDetails from "./pages/ProductDetails";
 import AddToCart from "./components/AddToCart";
 import Header from "./components/Header";
 import Category from "./components/Category";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 
 

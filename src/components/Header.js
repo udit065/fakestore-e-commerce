@@ -8,9 +8,9 @@ import { CartContext } from '../contexts/CartContext';
 
 const navigation = [
     { name: 'Home', href: '/', current: true },
-    { name: 'Products', href: '/Category', current: false },
+    { name: 'Products', href: '#', current: false },
     { name: 'Latest Product', href: '#', current: false },
-    { name: 'Offers', href: '#', current: false },
+    { name: 'Offers', href: '/Category', current: false },
 ]
 
 function classNames(...classes) {
