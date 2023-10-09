@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ProductContext } from "../contexts/ProductContext";
-import SvgTest1 from "./SvgTest1";
+import SvgTest1 from "./component/SvgTest1";
 // import Product from '../components/Product'
 
 

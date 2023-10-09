@@ -5,11 +5,12 @@ import { BsEyeFill } from "react-icons/bs";
 import { CartContext } from '../contexts/CartContext';
 import Footer from '../components/Footer';
 import RandomProduct from '../components/RandomProduct';
-import Banner from '../components/Banner';
-import Slider from '../components/Slider';
-import ExploreSection1 from '../components/ExploreSection1';
-import Newsletter from '../components/Newsletter';
-import Brands from '../components/Brands';
+import Banner from '../components/component/Banner';
+import Slider from '../components/component/Slider';
+import ExploreSection1 from '../components/component/ExploreSection1';
+import Newsletter from '../components/component/Newsletter';
+import Brands from '../components/component/Brands';
+import ExploreCards from '../components/component/ExploreCards';
 
 
 function Home() {
@@ -112,6 +113,9 @@ function Home() {
             <div>
                 <ExploreSection1 />
                 <Newsletter />
+            </div>
+            <div>
+                <ExploreCards />
             </div>
             <Brands />
             <Footer />

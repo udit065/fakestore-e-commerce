@@ -11,12 +11,12 @@ const SvgTest1 = () => {
             <img src="./img-files/Shopping bag-amico.svg" alt="Online Shopping Animation" />
             <img src="./img-files/Shopping-amico.svg" alt="Online Shopping Animation" /> */}
             {/* <img src="https://fura.brickthemes.com/wp-content/uploads/2018/12/banner02.jpg?id=457" alt="Online Shopping Animation" /> */}
-            <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/creative.jpg" alt="Online Shopping Animation" />
+            {/* <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/creative.jpg" alt="Online Shopping Animation" />
             <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/imperials.jpg" alt="Online Shopping Animation" />
             <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/hurlex.jpg" alt="Online Shopping Animation" />
             <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/diamond.jpg" alt="Online Shopping Animation" />
             <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/fabric.jpg" alt="Online Shopping Animation" />
-            <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/captain.jpg" alt="Online Shopping Animation" />
+            <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/captain.jpg" alt="Online Shopping Animation" />*/}
         </div>
     )
 }
