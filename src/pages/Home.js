@@ -9,6 +9,7 @@ import Banner from '../components/Banner';
 import Slider from '../components/Slider';
 import ExploreSection1 from '../components/ExploreSection1';
 import Newsletter from '../components/Newsletter';
+import Brands from '../components/Brands';
 
 
 function Home() {
@@ -112,6 +113,7 @@ function Home() {
                 <ExploreSection1 />
                 <Newsletter />
             </div>
+            <Brands />
             <Footer />
         </>
 
