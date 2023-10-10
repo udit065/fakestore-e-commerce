@@ -35,7 +35,7 @@ const ExploreCards = () => {
                         </CardActionArea>
                     </Card>
                 </div>
-                <div className='mx-6 xs:mb-10'>
+                <div className='md:mx-6 xs:mb-10'>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardActionArea>
                             <CardMedia

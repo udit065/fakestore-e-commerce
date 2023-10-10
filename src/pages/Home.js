@@ -3,7 +3,7 @@ import { ProductContext } from '../contexts/ProductContext';
 import { Link } from 'react-router-dom';
 import { BsEyeFill } from "react-icons/bs";
 import { CartContext } from '../contexts/CartContext';
-import Footer from '../components/Footer';
+import Footer from '../components/component/Footer';
 import RandomProduct from '../components/RandomProduct';
 import Banner from '../components/component/Banner';
 import Slider from '../components/component/Slider';

@@ -17,10 +17,10 @@ const SvgTest1 = () => {
             <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/diamond.jpg" alt="Online Shopping Animation" />
             <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/fabric.jpg" alt="Online Shopping Animation" />
             <img src="https://fura.brickthemes.com/wp-content/uploads/2018/10/captain.jpg" alt="Online Shopping Animation" />
-            
             <img src="https://fura.brickthemes.com/wp-content/uploads/2018/11/bag_trans.png" alt="image" />
-            <img src="" alt="image" />
-            <img src="" alt="image" />
+            <img src="https://fura.brickthemes.com/wp-content/uploads/2018/12/bg_dark.jpg?id=493" alt="image" />
+            // products----------------------------------------------------------------
+            <img src="https://fura.brickthemes.com/wp-content/uploads/2017/12/f7-600x800.jpg" alt="image" />
             <img src="" alt="image" />
             */}
         </div>

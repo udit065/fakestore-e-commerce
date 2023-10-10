@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="flex justify-evenly border-t-2 border-t-[#eeeeee] border-solid mt-10  pt-20 pb-10 xs:flex-col">
             <div className="xs:mt-6 ml-2">
-                <h3 className="text-left text-black mb-4 font-semibold xs:ml-4 ">ABOUT US  </h3>
+                <h3 className="text-left text-black mb-4 font-bold xs:ml-4 ">ABOUT US  </h3>
                 <ul className="font-normal text-left xs:ml-4">
                     <li className="mb-3">
                         Class aptent taciti sociosqu
@@ -21,7 +21,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="xs:mt-6">
-                <h3 className="text-left text-black   mb-4 font-semibold xs:ml-4">
+                <h3 className="text-left text-black   mb-4 font-bold xs:ml-4">
                     RECENT COMMENTS
                 </h3>
                 <ul className="font-normal text-left xs:ml-4">
@@ -37,7 +37,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="xs:mt-6">
-                <h3 className="text-left text-black mb-4 font-semibold xs:ml-4">
+                <h3 className="text-left text-black mb-4 font-bold xs:ml-4">
                     QUICK LINKS
                 </h3>
                 <ul className="font-normal text-left xs:ml-4">
@@ -56,7 +56,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="xs:mt-6 mr-2">
-                <h3 className="text-left text-black mb-4 font-semibold xs:ml-4">
+                <h3 className="text-left text-black mb-4 font-bold xs:ml-4">
                     RECENT POSTS
                 </h3>
                 <ul className="font-normal text-left xs:ml-4">
