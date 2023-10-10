@@ -11,6 +11,7 @@ import ExploreSection1 from '../components/component/ExploreSection1';
 import Newsletter from '../components/component/Newsletter';
 import Brands from '../components/component/Brands';
 import ExploreCards from '../components/component/ExploreCards';
+import ExploreNewStock from '../components/component/ExploreNewStock';
 
 
 function Home() {
@@ -96,11 +97,12 @@ function Home() {
             {/* <RandomProduct /> */}
             <Banner />
             <Slider />
+            <ExploreNewStock />
             <div>
                 <div className="container mx-auto my-5 px-5">
                     <div className="row">
                         <div className="col-12 mb-5 text-center">
-                            <h1 className="font-bold mt-6 font-poppins text-[48px] text-black">Best Sellers</h1>
+                            <h1 className="font-black mt-6 font-oswald text-[48px] text-black">Best Sellers</h1>
                             <h6 className='font-oswald'>Shake Up Your Denim Selection With Zippered Detailing And Distressing.<br />
                                 Jeans Trousers, Shorts - All Here, Just For You.</h6>
                         </div>

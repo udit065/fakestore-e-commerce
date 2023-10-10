@@ -10,7 +10,7 @@ const ExploreCards = () => {
         <div className='my-28'>
             <div className="row mb-10">
                 <div className="col-12 mb-5 text-center">
-                    <h1 className="font-bold mt-6 text-[48px] text-black font-oswald  capitalize">From The News</h1>
+                    <h1 className="font-black mt-6 text-[45px] text-black font-oswald  capitalize">From The News</h1>
                     <h6 className='font-oswald '>Keep Updating Everything With Top Brands & Trends</h6>
                 </div>
             </div>
