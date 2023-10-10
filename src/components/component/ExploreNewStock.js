@@ -47,7 +47,7 @@ const ExploreNewStock = () => {
                 />
             </div>
             <div className="flex justify-center items-center font-oswald flex-col md:w-[510px] xs:mt-10">
-                <div className='text-center font-black text-[40px] xs:text-center'>
+                <div className='text-center font-black text-[40px] xs:text-center' data-aos="fade-up">
                     <h1>New Stock  2023</h1>
                     <h1 className=''>Casual For Man</h1>
                 </div>

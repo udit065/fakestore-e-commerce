@@ -2,8 +2,10 @@ import React from 'react'
 
 const Offers = () => {
     return (
-        <div>Offers</div>
+        <div>
+            <img src="./img-files/discount-animate.svg" alt="image" className='w-full h-screen' />
+        </div>
     )
 }
 
-export default Offers
+export default Offers;

@@ -3,7 +3,7 @@ import React from 'react'
 const ExploreSection1 = () => {
     return (
         <>
-            <div className="grid grid-cols-3 xs:grid-cols-1 xs:grid-row-3">
+            <div className="grid grid-cols-3 xs:grid-cols-1 xs:grid-row-3" data-aos="fade-up">
                 <div className=''>
                     <img src="https://fura.brickthemes.com/wp-content/uploads/2018/12/banner01.jpg?id=458" alt="Abc FOR HIM" />
                 </div>

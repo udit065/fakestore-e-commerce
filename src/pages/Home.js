@@ -100,7 +100,7 @@ function Home() {
             <ExploreNewStock />
             <div>
                 <div className="container mx-auto my-5 px-5">
-                    <div className="row">
+                    <div className="row" data-aos="fade-up">
                         <div className="col-12 mb-5 text-center">
                             <h1 className="font-black mt-6 font-oswald text-[48px] text-black">Best Sellers</h1>
                             <h6 className='font-oswald'>Shake Up Your Denim Selection With Zippered Detailing And Distressing.<br />

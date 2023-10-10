@@ -4,7 +4,7 @@ const Newsletter = () => {
     return (
         <div className='flex justify-center flex-col items-center h-96 xs:h-[600px] text-white' style={{ backgroundImage: 'url(https://fura.brickthemes.com/wp-content/uploads/2018/12/bg_dark.jpg?id=493)', backgroundSize: 'cover', backgroundPosition: 'center', objectFit: "contain" }}>
             <div className='flex justify-center flex-col items-center h-96 xs:h-[600px] bg-black text-white'>
-                <div className='flex flex-col items-center justify-center font-oswald text-center'>
+                <div className='flex flex-col items-center justify-center font-oswald text-center' data-aos="fade-up">
                     <div className='text-2xl font-bold'>Join Our Newsletter List</div>
                     <div className='text-2xl font-bold xs:mt-3'>
                         <span style={{ whiteSpace: 'nowrap' }}>And Get 25% Discount On All</span>

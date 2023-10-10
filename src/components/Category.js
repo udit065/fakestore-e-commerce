@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ProductContext } from "../contexts/ProductContext";
-import SvgTest1 from "./component/SvgTest1";
+// import SvgTest1 from "./component/SvgTest1";
 // import Product from '../components/Product'
 
 
@@ -46,7 +46,7 @@ const Category = () => {
                     </div>
                 </div>
             </section > */}
-            <SvgTest1/>
+            {/* <SvgTest1/> */}
         </div >
     );
 };
