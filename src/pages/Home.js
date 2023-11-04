@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { BsEyeFill } from "react-icons/bs";
 import { CartContext } from '../contexts/CartContext';
 import Footer from '../components/component/Footer';
-import RandomProduct from '../components/RandomProduct';
 import Banner from '../components/component/Banner';
 import Slider from '../components/component/Slider';
 import ExploreSection1 from '../components/component/ExploreSection1';
@@ -22,26 +21,9 @@ function Home() {
     // Cart context
     const { addToCart } = useContext(CartContext);
 
-
-    // const filterProducts = (cat) => {
-    //     const updlist = products.filter((x) => x.category === cat);
-    //     console.log("called")
-    //     setFilter(updlist);
-    //}
     const ShowProducts = () => {
         return (
             <>
-                {/* //Filter Buttons */}
-                {/* <div className="buttons">
-                    <div className="flex flex-wrap justify-center gap-2">
-                        <button className="bg-gray-700 text-white px-4 py-2 rounded border border-gray-700 hover:bg-gray-600" onClick={() => setFilter(products)}>All</button>
-                        <button className="bg-gray-700 text-white px-4 py-2 rounded border border-gray-700 hover:bg-gray-600" onClick={() => filterProducts("men's clothing")}>Men's Clothing</button>
-                        <button className="bg-gray-700 text-white px-4 py-2 rounded border border-gray-700 hover:bg-gray-600">Women's Clothing</button>
-                        <button className="bg-gray-700 text-white px-4 py-2 rounded border border-gray-700 hover:bg-gray-600">Jewelry</button>
-                        <button className="bg-gray-700 text-white px-4 py-2 rounded border border-gray-700 hover:bg-gray-600">Electronics</button>
-                    </div>
-                </div> */}
-
                 {/* //Products mapping */}
                 <div className="flex flex-wrap justify-center mt-28">
                     {products.map((product) => (
@@ -94,7 +76,6 @@ function Home() {
 
     return (
         <>
-            {/* <RandomProduct /> */}
             <Banner />
             <Slider />
             <ExploreNewStock />

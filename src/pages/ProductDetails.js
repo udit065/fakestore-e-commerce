@@ -42,6 +42,7 @@ const ProductDetails = () => {
                 </div>
             </div>
         </section>
+        
     );
 };
 
