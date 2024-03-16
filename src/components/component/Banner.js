@@ -1,6 +1,3 @@
-import React, { useState, useEffect, useContext } from 'react';
-
-
 function Banner() {
 
     // sm: Small screens (640px and up)
