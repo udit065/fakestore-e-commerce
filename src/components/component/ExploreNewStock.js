@@ -6,7 +6,7 @@ const ExploreNewStock = () => {
             <div className='text-center'>
                 <img
                     src="https://fura.brickthemes.com/wp-content/uploads/2018/11/bag_trans.png"
-                    alt="image"
+                    alt="Bag"
                     className="max-w-screen-lg w-full md:w-[600px]"
                     height="475px"
                 />

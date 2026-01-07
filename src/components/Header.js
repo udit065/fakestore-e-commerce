@@ -1,8 +1,8 @@
-import { useContext, useState } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { useContext } from 'react'
+import { Disclosure, Menu } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
-import { ProductContext } from '../contexts/ProductContext';
+// import { ProductContext } from '../contexts/ProductContext';
 import { FiShoppingCart } from "react-icons/fi";
 import { CartContext } from '../contexts/CartContext';
 
@@ -19,7 +19,7 @@ function classNames(...classes) {
 
 function Header() {
 
-    const { products } = useContext(ProductContext);
+    // const { products } = useContext(ProductContext);
     const { itemAmount } = useContext(CartContext);
 
     return (
