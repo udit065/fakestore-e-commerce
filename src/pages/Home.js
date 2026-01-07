@@ -79,7 +79,7 @@ function Home() {
             <Banner />
             <Slider />
             <ExploreNewStock />
-            <div>
+            {/* <div>
                 <div className="container mx-auto my-5 px-5">
                     <div className="row" data-aos="fade-up">
                         <div className="col-12 mb-5 text-center">
@@ -92,7 +92,7 @@ function Home() {
                         <ShowProducts />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div>
                 <ExploreSection1 />
                 <Newsletter />
